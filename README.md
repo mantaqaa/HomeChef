@@ -77,7 +77,34 @@ This app will be designed to enable users to search and select from over a hundr
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+Property
+Type
+Description
+objectId
+String
+unique id for the recipes posted (default field)
+caption
+String
+image caption by author
+instructions
+String
+Recipe instructions
+ingredients
+String
+Ingredients for the recipe
+nutritionInfo
+Number
+Nutritional/calorie and serving information of recipe
+recipeImage
+File
+Image of the recipe itself posted by HomeChef in the feed 
+bookmark
+Relation to Bookmarks class
+Users can save and view recipes later with bookmark option
+likesCount
+Number
+Count of the number of likes a recipe has received by users.
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
